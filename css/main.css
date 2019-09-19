@@ -144,7 +144,7 @@ body {
     padding-top: 20px;
 }
 
-.bLine { width: 87px; }
+.bLine { width: 87px; margin: 0 auto; }
 
 .partnerComp p {
     padding: 20px auto 49px auto;
