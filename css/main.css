@@ -1,9 +1,158 @@
-.hidden
-{
+
+/*# sourceMappingURL=main.css.map */
+
+.hidden {
 	display: none;
 }
 
-img, embed, object, video
-{
-	max-width: 100%;
+
+img, embed, object, video {
+  max-width: 100%;
 }
+
+body {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Header */
+#burgerCon {
+    display: none;
+}
+
+#burgerCon.slideToggle { display: block; }
+
+.mainNav button {
+    background: url(../assets/burger.svg) center no-repeat;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    transition: all 600ms ease;
+    margin: 10px 0 0 315px; 
+}
+
+.mainNav button.expanded {
+    /* browser prefixes for transform */
+   -webkit-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+ 
+   transform: rotate(90deg);
+ }
+
+ .mainNav li a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    text-align: center;
+}
+
+.mainNav li { border-bottom: 3px solid #03052b; }  
+
+.mainNav li a:hover { color: #3beb9e; }
+
+.mainLogo {
+    width: 90px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+/* Home Intro */
+
+.homeImg { max-width: 100%; margin-top: 10px; }
+
+.homeText {
+    width: 309px;
+    height: 73px;
+    margin: 41px auto;
+}
+
+/* Our Offers */
+
+.offers {
+    background-color: #03052b;
+    position: relative;
+    height: 628px;
+    margin-top: 30px;
+}
+
+.offers h2 {
+    color: #fff;
+    border-bottom: 3px solid #3beb9e;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.borderLine {
+    width: 190px;
+    margin: 0 auto;
+}
+
+.offerIcon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.offers p {
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Our Work Samples  */
+
+.workSamples h2 {
+    color: #000;
+    border-bottom: 3px solid #3beb9e;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.sampleImg {
+    width: 283px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#viewMore {
+    border: 0;
+    background-color: #3beb9e;
+    width: 80px;
+    height: 30px;
+    margin-left: 145px;
+}
+
+/* Partners */
+
+.partnerComp h2 {
+    color: #000;
+    border-bottom: 3px solid #3beb9e;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.bLine { width: 87px; }
+
+.partnerComp p {
+    padding: 20px auto 49px auto;
+    text-align: center;
+}
+
+.compLogos {
+    width: 160px;
+    margin: 0 auto;
+}
+
