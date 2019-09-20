@@ -1,0 +1,185 @@
+@import '_var';
+
+.form {
+    padding: 0 45px;
+}
+
+.maintext {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.form-title {margin-bottom: 40px;}
+
+.form-title h2 {
+    font-size: 25px; 
+    margin-bottom: 25px;
+}
+
+.emailForm {
+    margin-bottom: 11px;
+}
+
+input[type=text] {
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 30px;
+    color: #848484;
+    border-bottom: $main-two solid 4px;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    padding: 0;
+}
+
+input[type=number] {
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 30px;
+    color: #848484;
+    border-bottom: $main-two solid 4px;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    padding: 0;
+}
+
+.submit {
+    background-color: $main-two;
+    color: $main-one;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+.submit:hover {
+    color: $main-two;
+    background-color: $main-one;
+}
+
+.compinfo { 
+    margin-top: 55px;
+    margin-bottom: 50px; 
+}
+
+iframe {border: 0.5px solid #424242; width: 100%;}
+
+.infoCon {
+    background-color: $main-one; 
+    text-align: center;
+}
+
+.infoCon h1 {
+    color: white; 
+    font-size: 35px; 
+    padding-top: 25px;
+}
+
+.greenHand {margin: 15px 0; width: 52px;}
+
+.infoCon p {
+    color: white; 
+    font-size: 15px; 
+}
+
+.contEmail {
+    color: $main-two; 
+    font-size: 15px; 
+    margin: 15px 0;
+}
+
+.contAddress {
+    margin-bottom: 20px;
+}
+
+.hithere {
+    color: #adadad; 
+    font-size: 12px; 
+    padding-bottom: 15px;
+}
+
+
+@media screen and (min-width: 40em) {
+
+    .maintext {font-size: 43px; margin: 80px;}
+
+    .form {padding: 0 110px;}
+
+    .thirdinput {display: flex;}
+
+    .emailForm {margin:0;}
+
+    input[type=number] {margin-left: 33px;}
+
+    .submit {font-size: 25px;}
+
+    .compinfo {display: flex; margin-top: 80px;}
+
+    .map-img {width: 50%;}
+
+    iframe {height: 276px;}
+
+    .infoCon {width:50%;}
+
+    .infoCon h1 {font-size: 35px;}
+
+    .greenHand {width: 52px;}
+
+  
+  }
+
+  @media screen and (min-width: 1280px) {
+    .maintext {font-size: 70px; margin:105px 0;}
+
+    .form {padding: 0 155px;}
+
+    .form-title h2 {font-size: 35px;}
+
+    input[type=text] {
+        width: 100%;
+        background-color: #ffffff;
+        font-size: 40px;
+        color: #848484;
+        border-bottom: $main-two solid 4px;
+        border-top: white;
+        border-left: white;
+        border-right: white;
+        padding: 0;
+    }
+    
+    input[type=number] {
+        width: 100%;
+        background-color: #ffffff;
+        font-size: 40px;
+        color: #848484;
+        border-bottom: $main-two solid 4px;
+        border-top: white;
+        border-left: white;
+        border-right: white;
+        padding: 0;
+    }
+
+    .submit {font-size: 35px;}
+
+    .compinfo {margin-top: 200px;}
+
+    .infoCon h1 {font-size: 60px; padding-top: 40px;}
+
+    .greenHand {width: 88px; margin: 30px;}
+
+    .infoCon p {font-size: 25px;}
+
+    .contEmail {font-size: 25px; margin: 20px;}
+
+    .contAddress {margin-bottom: 60px;}
+
+    .hithere {font-size:20px; padding-bottom: 20px;}
+
+    iframe {height: 483px;;}
+
+  }
+

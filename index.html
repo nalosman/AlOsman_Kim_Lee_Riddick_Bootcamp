@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="https://use.typekit.net/ibb1bdy.css">
-	<title>Default</title>
+	<title>Terra Studios | Home</title>
 </head>
 <body>
 	<main class="wrapper">
@@ -31,7 +31,7 @@
 			<!-- Main Logo -->
 			<div class="mainLogo">
 				<a href="index.html">
-					<img src="images/logo/final_logo_final-text_side.svg" alt="logoSideText">
+					<img src="images/logo/bootcamp-terra_studios-final_logo_finalcopy.svg" alt="logoSideText">
 				</a>
 			</div>
 		</header>
@@ -44,19 +44,20 @@
 		</div>
 		
 		<!-- Home Intro Text -->
-		<div class="homeText">
+		<section id="homeText">
 			<p>Terra Studio is a full-service design agency catering to brands rooted 
 				in nature and the outdoors. We createtimeless experiences based on 
 				data and strategy designed to convert your audience 
 				into loyal customers. 
 			</p>
-		</div>
+		</section>
 
 		<!-- Our Offers Section -->
 		<section class="offers">
 			<div class="borderLine">
 				<h2>WHAT WE OFFER</h2>
 			</div>
+			<div class="offerImgs">
 			<div class="offerIcon">
 			<img src="assets/offerPencil.png" alt="offer1">
 			<p>BRANDING</p>
@@ -69,6 +70,7 @@
 			<img src="assets/offerVideo.png" alt="offer3">
 			<p>PRODUCTION</p>
 			</div>
+			</div>
 		</section>
 
 		<!-- Our Design Work Samples -->
@@ -76,16 +78,32 @@
 			<div class="borderLine">
 				<h2>New Design Work</h2>
 			</div>
+			<div class="sampleOne">
 			<div class="sampleImg">
-				<img src="assets/works6.jpg" alt="work1">
+				<img class="work-img" src="assets/work-traa.jpg" alt="work1">
+				<div class="overlayT">
+					<div class="textOver"><p>TRAA</p></div>
+				</div>
 			</div>
 			<div class="sampleImg">
-			<img src="assets/works6.jpg" alt="work2">
+				<img class="work-img" src="assets/work-2018.jpg" alt="work2">
+				<div class="overlayT">
+				<div class="textOver"><p>Ignite Elections</p></div>
+				</div>
 			</div>
-			<div class="sampleImg">
-			<img src="assets/works6.jpg" alt="work3">
+				<div class="sampleImg" id="restSamp">
+					<img class="work-img" src="assets/work-admiral.jpg" alt="work3">
+					<div class="overlayT">
+						<div class="textOver"><p>The Admiral</p></div>
+					</div>
 			</div>
-			<button id="viewMore">View More</button>
+			</div>
+			
+			
+			<button id="viewMore">
+				<span>View More</span>
+			</button>
+		
 		</section>
  
 		<!-- Our Partners -->
@@ -93,44 +111,61 @@
 			<div class="bLine">
 				<h2>Partners</h2>
 			</div>
+			<div class="logoContainers">
 			<div class="compLogos">
 				<img src="assets/partnerLogo1.png" alt="company1">
+				<p>DOROTHY COMPANY</p>
 			</div>
-			<p>DOROTHY COMPANY</p>
+			
 			<div class="compLogos">
 				<img src="assets/partnerLogo2.png" alt="company2">
+				<p>AOMG</p>
 			</div>
-			<p>AOMG</p>
+			
 			<div class="compLogos">
 				<img src="assets/partnerLogo3.png" alt="company3">
+				<p>WM ENTERTAINMENT</p>
 			</div>
-			<p>WM ENTERTAINMENT</p>
+			
 			<div class="compLogos">
 				<img src="assets/partnerLogo4.png" alt="company4">	
+				<p>DOOROODOOROO</p>
 			</div>
-			<p>DOOROODOOROO</p>
 			
+			</div>
 		</section>
 
 		<!-- Footer -->
-		<div class="footerCon">
 		<footer class="mainFooter">
-			<div class="footerOne">
-			<p>hello@terrastudio.com</p>
-			<div class="footerLogo">
-			<img src="images/logo/final_logo_final_knockout-text_side.svg" alt="logoSideText">
+
+			<div class="footer-all">
+			<div class="footer-one">
+				<p>hello@terrastudio.com</p>
+				<p class="number"> 519-123-4567</p>
 			</div>
-			<p>320 RICHMOND ROAD<br>LONDON, ON. A8B 5F4</p>
+	
+			<div class="footer-two">
+				<img src="images/logo/bootcamp-terra_studios-final_logo_final_knockout-text_side.svg" alt="logoSideText">
 			</div>
-			<p class="number"> 519-123-4567</p>
+			
+			<div class="footer-three">
+				<p>320 RICHMOND ROAD<br>LONDON, ON. A8B 5F4</p>	
+				<div id="socialIcon">
+					<a href="www.twitter.com">
+						<img src="assets/colour_twitter.svg" alt="socialIcon1">
+					</a>
+					<a href="www.instagram.com">
+					<img src="assets/colour_instagram.svg" alt="socialIcon2">
+					</a>
+					<a href="www.facebook.com">
+					<img src="assets/colour_facebook.svg" alt="socialIcon3">
+					</a>
+				</div>
+			</div>
+			</div>
 		<!-- Social Icons -->
-		<div id="socialIcons">
-			<img src="assets/socialTwitter.svg" alt="socialIcon1">
-			<img src="assets/socialInstagram.svg" alt="socialIcon2">
-			<img src="assets/socialFacebook.svg" alt="socialIcon3">
-		</div>
 		</footer>
-	</div>
+
 	</main>
  
 	<script src="js/main.js"></script>
