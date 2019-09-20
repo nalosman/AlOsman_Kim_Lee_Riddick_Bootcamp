@@ -27,7 +27,7 @@ body {
     width: 35px;
     height: 35px;
     transition: all 600ms ease;
-    margin: 10px 0 0 315px; 
+    margin: 20px 0 0 315px; 
 }
 
 .mainNav button.expanded {
@@ -50,7 +50,7 @@ body {
 .mainNav li a:hover { color: $main-two;; }
 
 .mainLogo {
-    width: 90px;
+    max-width: 90px;
     height: 35px;
     margin: 0 auto;
 }
@@ -63,6 +63,7 @@ body {
     width: 309px;
     height: 73px;
     margin: 41px auto;
+    font-size: 13px;
 }
 
 // Offer Section
@@ -155,33 +156,6 @@ body {
 }
 
 // Footer
+@import 'modules/footer';
 
-.footerCon {
-    background-color: $footer-bg;
-    width: 100%;
-    height: 142px;
-    margin-top: 64px;
-}
-
-.footerLogo {
-    width: 65px;
-    height: 25px;
-    margin: 0 auto;
-}
-
-.mainFooter p {
-    color: $footer-text-color;
-    font-size: 10px;
-    margin-top: 2px;
-}
-
-.footerOne { display: flex;  padding: 10px; }
-
-.number { margin-left: 20px; }
-
-#socialIcons {
-    width: 112px;
-    height: 27px;
-    display: flex;
-    margin-left: 230px; 
-}
+@import 'modules/homeMQ';
