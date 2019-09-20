@@ -1,0 +1,25 @@
+// Home Page Tablet Version
+
+@media screen and (min-width: 376px) {
+    .mainNav button {
+        margin: 20px 0 0 682px; 
+    }
+
+    .homeText {
+        width: 671px;
+        height: 66px;
+        font-size: 20px;
+        line-height: 1px;
+    }
+
+    .offerImg {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: $break-point-large) {
+    .homeText {
+        padding: 10px;
+    }
+
+}
