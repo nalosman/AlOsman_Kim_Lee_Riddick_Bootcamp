@@ -1,0 +1,132 @@
+@import '_var';
+
+
+// MEDIA QUERY FOR 768PX(TABLET)
+@media screen and (min-width: $break-point-small) {
+  .work-text {
+    font-family: "Proxima Nova";
+    font-size: 35px;	font-weight: bold;
+    margin: 50px 45px;
+    text-align: center;
+  }
+
+  #portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 45px;
+    justify-content: space-between;
+  }
+
+  .indivProject {
+    flex-wrap: wrap;
+  
+   }
+
+
+   .indivProject img {
+    width: 328px;
+  }
+
+  .indivProject h5 {
+    font-size: 28px;
+    padding-top: 20px;
+
+  }
+
+  .indivProject p {
+    font-size: 21px;
+    margin-top: 12px;
+  }
+
+  /*WORK CTA STYLING*/
+
+  #workCTA h3 {
+    font-family: "Proxima Nova";
+    font-size: 37px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  #workCTA button {
+    height: 39px;	
+    width: 111px;	
+    background-color: $main-two;
+    font-family: "Proxima Nova";
+    font-size: 19px;
+    border: none;
+  
+    margin: 53px 132px 1px 132px;
+  }
+
+}
+
+@media screen and (min-width: $break-point-large) {
+  //Whole Body 
+  .wrapper {
+    max-width: 1280px;
+}
+
+// Header 
+.mainLogo {
+    width: 230px;
+    height: 90px;
+    margin: 25px 0 25px 55px;
+}
+
+.mainNav button {
+    display: none;
+}
+
+#burgerCon { display: flex; flex-direction: column; margin: 0; }
+
+.mainNav {
+    text-align: right;
+    text-decoration: none;
+    margin: 30px 0 0 auto;
+    font-size: 45px;
+}
+
+.mainNav li {
+    border-bottom: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+  .workText {
+    font-size: 60px;
+    margin: 105px 213px 100px 214px;
+  }
+
+  /* Portfolio SECTION STYLING*/
+  #portfolio {
+    display: flex;
+    margin: 0 55px;
+  }
+
+  .indivProject {
+    flex-wrap: wrap;
+    width: 370px;
+  }
+
+  .indivProject img {
+    width: 370px;
+  }
+
+
+  /*#workCTA styling */
+  #workCTA {
+    margin-top: 113px;
+  }
+
+  #workCTA h3 {
+    font-size: 62.44px;
+  }
+
+  #workCTA button {
+    height: 69.43px;	
+    width: 196.68px;	
+    font-size: 35px;
+  
+    margin-top: 66px;
+  }
+}

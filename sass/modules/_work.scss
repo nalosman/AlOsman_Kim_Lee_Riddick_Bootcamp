@@ -1,0 +1,77 @@
+.workBanner img {
+  max-width: 100%; 
+  margin-top: 10px;
+}
+
+.work-text {
+  font-family: "Proxima Nova";
+  font-size: 20px;	font-weight: bold;
+  margin: 50px 45px;
+  text-align: center;
+}
+
+// PORTFOLIO SECTION STYLING
+#portfolio {
+  display: block;
+  margin: 48px 46px 0px 46px;
+}
+
+.indivProject {
+  margin-bottom: 51px;
+  // width: 283px;
+}
+
+.indivProject:last-child {
+  margin-bottom: 0px;
+}
+
+.indivProject h5 {
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  padding-top: 19px;
+  text-align: center;
+}
+
+.indivProject a {
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.indivProject p {
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* Work CTA Styling*/
+
+#workCTA {
+  margin-top: 85px;
+  text-align: center;
+}
+
+#workCTA h3 {
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#workCTA button {
+  height: 28px;	
+  width: 81px;	
+  background-color: $main-two;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  border: none;
+
+  margin: 24px 81px 0 80px;
+}
+
+
+
+
+@import 'modules/_workMQ';
