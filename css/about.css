@@ -1,0 +1,53 @@
+@import "_var";
+
+.bio-section 
+{
+    display: inline row;
+}
+
+.borderLine 
+{
+    width: 190px;
+    margin: 0 auto;
+}
+
+.borderLine h2 
+{
+    color: #fff;
+    border-bottom: 3px solid $main-two;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.alec-bio 
+{
+
+}
+
+.gahyun-bio
+{
+
+}
+
+.hyeryn-bio
+{
+
+}
+
+.nour-bio
+{
+
+}
+
+.video-section
+{
+
+}
+
+.about-pg
+{
+    background-color: #03052b;
+}
