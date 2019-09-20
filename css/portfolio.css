@@ -1,0 +1,180 @@
+/* Style Sheet for Portfolio Page */
+
+.hero-img 
+{ 
+    max-width: 100%; 
+    margin-top: 10px; 
+}
+
+.hero-text 
+{
+    width: 309px;
+    height: 73px;
+    margin: 41px auto;
+}
+
+.borderLine
+{
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.project-inclusions
+{
+    background-color: #151859;
+    color: white;
+}
+
+.project-inclusions h2
+{
+    color: #fff;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.project-icons
+{
+    width: 400px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.project-icons img
+{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.project-icons h3
+{
+    padding-bottom: 35px;
+}
+
+.project-information
+{
+    width: 309px;
+    height: 200px;
+    margin: 41px auto;
+    font-size: 13px;
+}
+
+.project-images
+{
+    width: 309px;
+    height: 200px;
+}
+
+.project-images h2
+{
+    color: #000;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* ---CAROUSEL CONTENTS--- */
+#carousel_container {
+	width: 100%;
+	height: 237px;
+	/* background-color: darkolivegreen; */
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 418px;
+}
+
+#carousel_images {
+	position:relative;
+	width:6000px;
+	transition: all .5s;
+}
+
+#carousel_images img {
+	float:left;
+	width: 7%;
+}
+
+#carousel_controls {
+	display: flex;
+	flex-direction: row;
+}
+
+.fa-chevron-left {
+	margin: 30% 0 0 4%;
+	font-size: 2em;
+	color: #3df29d;
+	cursor: pointer;
+	position: absolute;
+
+}
+
+.fa-chevron-right {
+	margin: 30% 0 0 86%;
+	font-size: 2em;
+	color: #3df29d;
+	cursor: pointer;
+	position: absolute;
+}
+
+/* CAROUSEL END */
+
+.project-selection
+{
+    width: 309px;
+    height: 200px;
+    text-align: center;
+}
+
+.project-selection h2
+{
+    color: #000;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact-button
+{
+    width: 375px;
+    height: 200px;
+}
+
+.contact-button h2
+{
+    color: #000;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact-button button
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 40em) {
+    
+}
+
+@media screen and (min-width: 1280px) {
+
+}
