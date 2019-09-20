@@ -8,5 +8,4 @@ export default {
     casual: "assets/aboutCasualNour.jpg"
   },
 
-
 }
