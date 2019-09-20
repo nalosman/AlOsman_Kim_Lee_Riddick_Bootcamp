@@ -1,4 +1,5 @@
 @import "_var";
+@import 'modules/contact';
 
 .hidden {
 	display: none;
@@ -9,7 +10,7 @@ img, embed, object, video {
 }
 
 body {
-    font-family: proxima-nova, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -50,7 +51,7 @@ body {
 .mainNav li a:hover { color: $main-two;; }
 
 .mainLogo {
-    max-width: 90px;
+    width: 90px;
     height: 35px;
     margin: 0 auto;
 }
@@ -59,7 +60,7 @@ body {
 
 .homeImg { max-width: 100%; margin-top: 10px; }
 
-.homeText {
+#homeText p {
     width: 309px;
     height: 73px;
     margin: 41px auto;
@@ -86,7 +87,7 @@ body {
 }
 
 .borderLine {
-    width: 190px;
+    width: 195px;
     margin: 0 auto;
 }
 
@@ -106,6 +107,7 @@ body {
 
 // Design Works
 
+
 .workSamples h2 {
     color: #000;
     border-bottom: 3px solid $main-two;
@@ -118,18 +120,81 @@ body {
 }
 
 .sampleImg {
+    position: relative;
+    margin: 20px auto;
+}
+
+.work-img {
+    display: block;
     width: 283px;
-    margin: 30px auto 20px auto;
-    margin-bottom: 15px;
+}
+
+.overlayT {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 283px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: $main-two;
+}
+
+.sampleImg:hover .overlayT { opacity: 1; }
+
+.textOver {
+    color: #fff;
+    font-size: 30px;
+    width: 283px;
+    margin: 0 0 100px 140px;
+    position: absolute;
+    margin: 90px 150px 70px 140px;
+    -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.textOver p {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400; 
 }
 
 #viewMore {
+    display: block;
+    margin: 50px auto;
     border: 0;
     background-color: $main-two;
-    width: 80px;
+    width: 100px;
     height: 30px;
-    margin-left: 145px;
+    transition: all 0.5s;
 }
+
+#viewMore span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #viewMore span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  #viewMore:hover span {
+    padding-right: 14px;
+  }
+  
+  #viewMore:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 // Partners
 
@@ -152,10 +217,22 @@ body {
 
 .compLogos {
     width: 160px;
+    display: block;
     margin: 0 auto;
 }
+
 
 // Footer
 @import 'modules/footer';
 
+// Media Query
 @import 'modules/homeMQ';
+
+// Contact Page
+
+
+
+
+
+
+

@@ -1,25 +1,177 @@
 // Home Page Tablet Version
 
-@media screen and (min-width: 376px) {
-    .mainNav button {
-        margin: 20px 0 0 682px; 
+@media screen and (min-width: $break-point-small) {
+
+    #button {
+        margin-left: 680px;
     }
 
-    .homeText {
+    .mainLogo {
+        width: 115px;
+    }
+    // Home Intro
+    .homeImg {
+        margin-top: 25px;
+    }
+
+    #homeText p {
         width: 671px;
         height: 66px;
         font-size: 20px;
-        line-height: 1px;
     }
 
-    .offerImg {
-        display: flex;
+    // Offers 
+    .offers {
+        height: 500px;
     }
+
+    .offers h2 {
+        font-size: 40px;
+    }
+
+    .borderLine {
+        width: 320px;
+    }
+
+    .offers p {
+        margin-top: 85px;
+        font-size: 20px;
+    }
+
+    .offerIcon {
+        width: 110px;
+    }
+
+    .offerImgs {
+        display: flex;
+        flex-direction: row;
+        margin-top: 65px;
+    }
+
+    // Works 
+    .workSamples h2 {
+        font-size: 39PX;
+    }
+
+    .sampleImg {
+        width: 308px;
+    }
+
+    .sampleOne {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    #viewMore {
+        width: 152px;
+        height: 52px;
+        font-size: 27px;
+    }
+
+    // Partners 
+    .partnerComp h2 {
+        font-size: 40px;
+    }
+
+    .bLine {
+        width: 152px;
+    }
+
+    .compLogos {
+        width: 86px;
+    }
+
+    .logoContainers {
+        display: flex;
+        width: 647px;
+        height: 142px;
+        justify-content: space-around;
+        margin: 140px auto 0 auto;
+    }
+
+    .logoContainers p {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (min-width: $break-point-large) {
-    .homeText {
-        padding: 10px;
+    //Whole Body 
+    .wrapper {
+        max-width: 1280px;
     }
+
+    // Header 
+    .mainLogo {
+        width: 230px;
+        height: 90px;
+        margin: 25px 0 25px 55px;
+    }
+
+    .mainNav button {
+        display: none;
+    }
+
+    #burgerCon { display: flex; flex-direction: column; margin: 0; }
+
+    .mainNav {
+        text-align: right;
+        text-decoration: none;
+        margin: 30px 0 0 auto;
+        font-size: 45px;
+    }
+
+    .mainNav li {
+        border-bottom: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    // Intro
+
+    #homeText {
+        width: 968px;
+        height: 96px;
+        font-size: 29px;
+        margin: 0 auto;
+        line-height: 27px;
+    }
+
+    // Offer Desktop
+
+    .offers h2 { font-size: 55px; }
+
+    .borderLine { width: 440px; }
+
+    .offerIcon { width: 135px; }
+
+    .offers p { font-size: 30px; }
+
+    // WORK Samples 
+
+    .workSamples h2 { font-size: 54px; }
+
+    #viewMore { display: block; margin: 68px auto; }
+
+    // Partners 
+
+    .partnerComp h2 { font-size: 55px; }
+
+    .bLine { width: 208px; }
+
+    .logoContainers {
+        width: 1031px;
+        height: 142px;
+        justify-content: space-around;
+        margin: 140px auto 0 auto;
+    }
+
+    .compLogos { 
+        width: 193px; 
+        margin-top: 80px;
+        margin-bottom: 204px;
+    }
+    
+    .compLogos p { font-size: 20px; }
 
 }
