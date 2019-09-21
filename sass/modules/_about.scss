@@ -1,18 +1,14 @@
 @import '_var';
 
-.bio-section 
-{
-    display: inline row;
-}
 
-.borderLine 
-{
+.bio-section { display: inline row; }
+ 
+.borderLine {
     width: 190px;
     margin: 0 auto;
 }
 
-.borderLine h2 
-{
+.borderLine h2 {
     color: #fff;
     border-bottom: 3px solid $main-two;
     font-family: proxima-nova, sans-serif;
@@ -22,32 +18,106 @@
     padding-top: 20px;
 }
 
-.alec-bio 
-{
+// Team Member Bio - Each Person
 
+.bioCon {
+    width: 375px;
+    line-height: auto;
 }
 
-.gahyun-bio
-{
-
+.bioCon h4 {
+    padding-top: 8px;
 }
 
-.hyeryn-bio
-{
+.team { margin-top: 10px;}
 
+.memberBut {
+    border: 0;
+    width: 68px;
+    height: 30px;
+    background-color: #3df29d;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
-.nour-bio
-{
-
+.memberBut:first-child {
+    margin-left: 35px;
 }
 
-.video-section
-{
 
+.photo {
+    width: 155px;
+    height: 230px;
 }
 
-.about-pg
-{
-    background-color: #03052b;
+.name-role { margin: 14px 0 0 25px; }
+
+.name-role h1 { font-size: 13px; font-weight: 600; }
+
+.name-role p {
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 8px;
 }
+
+// Video Section
+
+
+video { margin-top: 20px; }
+
+.video-section h2 {
+    color: #000;
+    border-bottom: 3px solid $main-two;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.controlCustom {
+    text-align: center;
+    padding: 5px;
+}
+
+.bLine-two {
+    width: 65px;
+    margin: 0 auto;
+}
+
+
+// About Second Text
+
+.about-pg { 
+    background-color: $main-one; 
+    width: 100%; 
+    height: 158px; 
+    margin-top: 50px;
+}
+
+.about-pg p { 
+    width: 270px; 
+    color: #fff; 
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px 0 0  50px;
+}
+
+.contactUs h2 {
+    font-size: 23px;
+    margin: 34px 0 0 0;
+}
+
+#seeMore {
+    background-color: $main-two;
+    border: 0;
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+
+
+

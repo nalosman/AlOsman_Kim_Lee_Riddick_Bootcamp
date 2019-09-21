@@ -1,0 +1,84 @@
+@import '_var';
+
+@media screen and (min-width: $break-point-small) {
+    // Member's Bio Information
+    .bioCon {
+        margin-left: 170px;
+    }
+
+    .u-image { padding: 10px;}
+
+    .memberBut { 
+        width: 135px;
+        height: 56px;
+        font-size: 28px;
+        margin-left: 15px;
+    }
+
+    .memberBut:hover {
+        cursor: pointer;
+    }
+
+    .memberBut:first-child {
+        margin-left: 70px;
+    }
+
+    .video-section h2 { font-size: 40px; }
+    
+    .bLine-two { width: 125px; }
+
+    .about-pg { height: 324px;}
+    
+    .about-pg p {
+        width: 561px;
+        font-size: 20px;
+        padding: 64px 63px 0 103px;
+       
+    }
+
+    .contactUs h2 { font-size: 40px;  text-align: center;}
+
+    #seeMore {
+        width: 152px;
+        height: 54px;
+        margin-left: 300px;
+    }
+
+}
+
+@media screen and (min-width: $break-point-large) {
+    //Team Bio
+    .memberBut { 
+        width: 160px;
+        height: 80px;
+        font-size: 40px;
+        margin-left: 15px;
+    }
+
+    .memberBut:first-child {
+        margin-left: 200px;
+    }
+
+    .teamInfo { width: 1035px; margin-top: 111px;}
+    .video-section h2 {font-size: 55px; }
+    
+    .bLine-two { width: 170px; }
+
+    .about-pg p {
+        width: 800px;
+        font-size: 25px;
+        line-height: auto;
+        padding-left: 103px;
+       
+    }
+
+    #seeMore {
+        width: 250px;
+        height: 100px;
+        font-size: 30px;
+        margin-left: 385px;
+    }
+    
+
+    
+}
