@@ -1,0 +1,52 @@
+@import '_var';
+
+@media screen and (min-width: $break-point-small) {
+  .hero-text h2 {
+    font-size: 30px;
+  }
+
+  .hero-text p {
+    font-size: 20px;
+    margin-top: 24px;
+    padding: 0 55px 10px 55px;
+  }
+  
+      
+
+  .project-inclusions h2
+  {
+    color: #fff;
+    border-bottom: 3px solid $main-two;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.project-inclusions p {
+    font-size: 20px;
+    line-height: auto;
+    padding: 15px 55px;
+  }
+
+}
+
+@media screen and (min-width: $break-point-large) {
+    #desktop-style {
+        display: flex;
+    }
+
+    #desktop-style .hero-text {
+        width: 50%;
+    }
+
+    #desktop-style .project-inclusions {
+        width: 50%;
+    }
+
+    .desktop-product {
+        display: flex;
+    }
+
+}
