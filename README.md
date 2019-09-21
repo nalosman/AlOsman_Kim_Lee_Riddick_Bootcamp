@@ -1,5 +1,5 @@
-![Terra Studio Logo](images/logo/final_logo_final.svg)
-<!-- Format: ![Alt Text](url) -->
+![Terra Studio Logo](images/logo/bootcamp-terra_studios-final_logo_final copy.svg)
+<!-- Format: ![Terra Studios Logo Header] -->
 
 # Bootcamp Project: Terra Studio
 

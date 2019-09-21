@@ -5,7 +5,11 @@ export default {
     drink: "Fav Drink: Coffee all day, everyday!",
     food: "Fav Food: Fettucine Alfredo",
     quote: "Fav Quote: You can’t use up creativity. The more you use, the more you have. - Maya Angelou",
+
     casual: "aboutCasualNour.jpg"
+=======
+   
+
   },
 
   Alec: {
@@ -14,7 +18,10 @@ export default {
     drink: "Fav Drink: Water",
     food: "Fav Food: Chicken Burritos",
     quote: "Fav Quote: If you have purpose, you don't need motivation. Purpose gets you through all the bullshit that people recycle as excuses. Either you're getting shit done or you aren't. - Papa Swolio",
+
     casual: "aboutCasualAlec.jpg"
+=======
+    
   },
 
   Hyeryn: {
@@ -23,6 +30,7 @@ export default {
     drink: "Fav Drink: Diet Coke",
     food: "Fav Food: Korean Style Chicken",
     quote: "Fav Quote: Think like a man of action and act like man of thought.",
+
     casual: "aboutCasualHyeryn.jpg"
   },
 
@@ -33,5 +41,7 @@ export default {
     food: "Fav Food: Intestine",
     quote: "Fav Quote: Rescue Yourself!",
     casual: "aboutCasualGahyun.jpg"
+=======
+  
   },
 }

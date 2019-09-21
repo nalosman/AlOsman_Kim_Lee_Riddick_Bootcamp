@@ -1,7 +1,12 @@
 @import "_var";
+@import 'modules/work';
 @import 'modules/contact';
+
 @import 'modules/about';
 @import 'modules/aboutMQ';
+=======
+@import 'modules/featured';
+
 
 .hidden {
 	display: none;

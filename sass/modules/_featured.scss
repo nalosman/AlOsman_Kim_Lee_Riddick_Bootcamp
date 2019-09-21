@@ -1,0 +1,130 @@
+
+.hero-img 
+{ 
+    max-width: 100%; 
+    margin-top: 10px; 
+}
+
+.product-shot {
+  text-align: center;
+}
+
+.hero-text h2{
+  
+  color: #000000;
+  font-family: "Proxima Nova";	
+  font-size: 23px;	
+  font-weight: bold;	
+  text-align: center;
+}
+
+.hero-text p {
+  font-size: 13px;
+  margin-top: 24px;
+  padding: 0 25px 10px 25px;
+}
+
+
+
+.project-inclusions
+{
+    background-color: #151859;
+    color: white;
+    
+    padding-bottom: 15px;
+}
+
+.borderLine
+{
+    // width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.project-inclusions h2
+{
+    color: #fff;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.project-inclusions p {
+  line-height: auto;
+  padding: 32px;
+}
+
+
+.product-shot h2 {
+  color: #000;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.product-image {
+  width: 309px;
+  margin: 0 0 30px 0;
+}
+
+/*OTHER DESIGN WORK STYLING*/
+
+.project-selection h2
+{
+    color: #000;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.project-selection img {
+  margin: 0 33px;
+  padding-top: 15px;
+  width: 309px;
+}
+
+
+/*CONTACT SECTION STYLING*/
+.contact-button h2
+{
+    color: #000;
+    border-bottom: 3px solid #3df29d;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.featured-contact {
+  text-align: center;
+}
+
+.featured-contact button {
+  background-color: #3BEB9E;
+  border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+
+    width: 100px;
+
+}
+
+@import 'modules/_featuredMQ';
+
