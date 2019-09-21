@@ -1,7 +1,12 @@
 @import "_var";
 @import 'modules/work';
 @import 'modules/contact';
+
+@import 'modules/about';
+@import 'modules/aboutMQ';
+=======
 @import 'modules/featured';
+
 
 .hidden {
 	display: none;
@@ -12,9 +17,13 @@ img, embed, object, video {
 }
 
 body {
-    font-family: proxima nova, sans-serif;
+    font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Hamburger Menu */
@@ -60,7 +69,7 @@ body {
 
 // Home Intro
 
-.homeImg { max-width: 100%; margin-top: 10px; }
+.homeImg { max-width: 100%; margin-top: 25px; }
 
 #homeText p {
     width: 309px;
@@ -120,6 +129,8 @@ body {
     padding-top: 50px;
     margin-bottom: 15px;
 }
+
+.sampleOne { margin-left: 50px; }
 
 .sampleImg {
     position: relative;
