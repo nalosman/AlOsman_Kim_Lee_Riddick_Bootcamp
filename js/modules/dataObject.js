@@ -16,4 +16,13 @@ export default {
     quote: "Fav Quote: If you have purpose, you don't need motivation. Purpose gets you through all the bullshit that people recycle as excuses. Either you're getting shit done or you aren't. - Papa Swolio",
     casual: "images/aboutCasualAlec.jpg"
   },
+
+  Hyeryn: {
+    computer: "Mac or PC: PC PC PC... PC will save the world",
+    pet: "Any Pets: 2 cats and a dog",
+    drink: "Fav Drink: Diet Coke",
+    food: "Fav Food: Korean Style Chicken",
+    quote: "Fav Quote: Think like a man of action and act like man of thought.",
+    casual: "images/aboutCasualHyeryn.jpg"
+  },
 }
