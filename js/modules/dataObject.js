@@ -7,7 +7,7 @@ export default {
     quote: "Fav Quote: You can’t use up creativity. The more you use, the more you have. - Maya Angelou",
 
     casual: "aboutCasualNour.jpg"
-=======
+
    
 
   },
@@ -20,7 +20,7 @@ export default {
     quote: "Fav Quote: If you have purpose, you don't need motivation. Purpose gets you through all the bullshit that people recycle as excuses. Either you're getting shit done or you aren't. - Papa Swolio",
 
     casual: "aboutCasualAlec.jpg"
-=======
+
     
   },
 
@@ -41,7 +41,7 @@ export default {
     food: "Fav Food: Intestine",
     quote: "Fav Quote: Rescue Yourself!",
     casual: "aboutCasualGahyun.jpg"
-=======
+
   
   },
 }
