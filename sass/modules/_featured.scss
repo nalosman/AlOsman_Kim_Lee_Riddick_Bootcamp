@@ -114,16 +114,14 @@
   text-align: center;
 }
 
-.featured-contact button {
-  background-color: #3BEB9E;
+.button {
+  background-color: $main-two;
   border: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-    height: 30px;
-
-    width: 100px;
-
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 200px;
 }
 
 @import 'modules/_featuredMQ';

@@ -39,7 +39,7 @@ export default {
     pet: "Any Pets: 2 cats",
     drink: "Fav Drink: Canada Dry",
     food: "Fav Food: Intestine",
-    quote: "Fav Quote: Rescue Yourself!",
+    quote: "Fav Quote: Don't wait someone who resue you. Rescue Yourself!",
     casual: "aboutCasualGahyun.jpg"
 
   

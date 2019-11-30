@@ -33,6 +33,14 @@
 }
 
 @media screen and (min-width: $break-point-large) {
+  .product-shot h2 { font-size: 2rem; }
+  
+  .desktop-product {
+    img { 
+      width: 490px; 
+      padding: 0 0 10px 10px;
+    }
+  } 
     #desktop-style {
         display: flex;
     }
